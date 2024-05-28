@@ -1,9 +1,9 @@
-document.getElementById(mostrar-variaveis).addEventListener('click', function() {
+document.getElementById('mostrar-variaveis').addEventListener('click', function() {
     let idade = 25;
     let nome = "Ana";
     let casado = true;
 
-    document.getElementById(variavel-simples).innerText = `Simples: Nome: ${nome}, Idade: ${idade}, Casado: ${casado}`;
+    document.getElementById('variavel-simples').innerText = `Simples: Nome: ${nome}, Idade: ${idade}, Casado: ${casado}`;
 
     let frutas = ["maçã", "banana", "laranja"];
     let pessoa = {
@@ -38,5 +38,5 @@ document.getElementById('form-frutas').addEventListener('submit', function(event
     document.getElementById('nova-fruta').value = ''
 })
 
-//-------------------------------------------------------
+//-----------------------------------------------------------------------------------
 
