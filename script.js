@@ -1,3 +1,5 @@
+//----------------------Variaveis em JavaScript---------------------
+
 document.getElementById('mostrar-variaveis').addEventListener('click', function() {
     let idade = 25;
     let nome = "Ana";
@@ -38,5 +40,5 @@ document.getElementById('form-frutas').addEventListener('submit', function(event
     document.getElementById('nova-fruta').value = ''
 })
 
-//-----------------------------------------------------------------------------------
+//------------------------------------------------------------------
 
